@@ -18,6 +18,7 @@ PPARG - регулирует жировой обмен и чувствитель
 | PPARG | Pan troglodytes              | шимпанзе                       |
 | PPARG | Papio anubis                 | павиан анубис                  |
 | PPARG | Symphalangus syndactylus     | сиаманг                        |
+|PPARG  | Pongo pygmaeus               | калимантанский орангутан       |
 
 ## Параметры Blast
 - Тип: blastn
