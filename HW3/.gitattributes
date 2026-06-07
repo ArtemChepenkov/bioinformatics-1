@@ -1,0 +1,13 @@
+# Shell-скрипты и Makefile должны иметь LF (исполняются в Linux/WSL)
+*.sh    text eol=lf
+*.py    text eol=lf
+Makefile text eol=lf
+*.mk    text eol=lf
+*.md    text
+
+# Бинарные артефакты — без нормализации
+*.png   binary
+*.gz    binary
+*.bam   binary
+*.bai   binary
+*.pdf   binary

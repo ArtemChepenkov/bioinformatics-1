@@ -1,0 +1,47 @@
+================================================================================
+ Результаты прогона пайплайна оценки качества картирования (GNU make)
+ HW3, ФИТ НГУ, весна 2026
+================================================================================
+
+ВХОДНЫЕ ДАННЫЕ
+  Образец            : sample (ERR15404843, E. coli K-12, Illumina MiSeq, paired-end)
+  Риды               : 278 922 пары (reads/sample_1.fastq.gz, sample_2.fastq.gz)
+  Референс           : E. coli K-12 MG1655, GCF_000005845.2 (4 641 652 bp)
+
+ИНСТРУМЕНТЫ
+  Version: 0.7.17-r1188
+  samtools 1.13
+  FastQC v0.11.9
+  freebayes version:  v1.3.6
+  GNU GNU Make 4.3
+
+КАРТИРОВАНИЕ (samtools flagstat)
+  572526 + 0 in total (QC-passed reads + QC-failed reads)
+  557844 + 0 primary
+  0 + 0 secondary
+  14682 + 0 supplementary
+  0 + 0 duplicates
+  0 + 0 primary duplicates
+  569545 + 0 mapped (99.48% : N/A)
+  554863 + 0 primary mapped (99.47% : N/A)
+  557844 + 0 paired in sequencing
+  278922 + 0 read1
+  278922 + 0 read2
+  544970 + 0 properly paired (97.69% : N/A)
+  553432 + 0 with itself and mate mapped
+  1431 + 0 singletons (0.26% : N/A)
+  0 + 0 with mate mapped to a different chr
+  0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+ОЦЕНКА КАЧЕСТВА КАРТИРОВАНИЯ
+  Картировано ридов  : 99.48%
+  Порог              : 90%
+  Вердикт            : OK (99.48% mapped >= 90%)
+
+КОЛЛИНГ ВАРИАНТОВ (freebayes)
+  Всего вариантов    : 40688
+  из них SNP         : 37214
+  VCF                : results/sample.vcf (включён как sample.vcf.gz)
+
+СТАТУС ПАЙПЛАЙНА     : FINISHED
+================================================================================

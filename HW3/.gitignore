@@ -1,0 +1,18 @@
+# Большие входные данные (см. ссылку на SRA в README) — в репозиторий не кладём
+ref/
+reads/
+
+# Тяжёлые промежуточные артефакты картирования
+*.sam
+*.bam
+*.bai
+results/*.sam
+results/*.bam
+results/*.bai
+
+# Архивы FastQC (HTML-отчёты оставляем)
+results/fastqc/*.zip
+
+# Прочее
+__pycache__/
+*.pyc

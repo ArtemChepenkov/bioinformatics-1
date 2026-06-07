@@ -1,0 +1,118 @@
+[20:55:16] Шаг 1/8: FastQC — контроль качества ридов
+Started analysis of sample_1.fastq.gz
+Approx 5% complete for sample_1.fastq.gz
+Approx 10% complete for sample_1.fastq.gz
+Started analysis of sample_2.fastq.gz
+Approx 15% complete for sample_1.fastq.gz
+Approx 5% complete for sample_2.fastq.gz
+Approx 20% complete for sample_1.fastq.gz
+Approx 10% complete for sample_2.fastq.gz
+Approx 25% complete for sample_1.fastq.gz
+Approx 15% complete for sample_2.fastq.gz
+Approx 30% complete for sample_1.fastq.gz
+Approx 20% complete for sample_2.fastq.gz
+Approx 35% complete for sample_1.fastq.gz
+Approx 25% complete for sample_2.fastq.gz
+Approx 40% complete for sample_1.fastq.gz
+Approx 30% complete for sample_2.fastq.gz
+Approx 45% complete for sample_1.fastq.gz
+Approx 35% complete for sample_2.fastq.gz
+Approx 50% complete for sample_1.fastq.gz
+Approx 40% complete for sample_2.fastq.gz
+Approx 55% complete for sample_1.fastq.gz
+Approx 45% complete for sample_2.fastq.gz
+Approx 60% complete for sample_1.fastq.gz
+Approx 50% complete for sample_2.fastq.gz
+Approx 65% complete for sample_1.fastq.gz
+Approx 55% complete for sample_2.fastq.gz
+Approx 70% complete for sample_1.fastq.gz
+Approx 60% complete for sample_2.fastq.gz
+Approx 75% complete for sample_1.fastq.gz
+Approx 65% complete for sample_2.fastq.gz
+Approx 80% complete for sample_1.fastq.gz
+Approx 70% complete for sample_2.fastq.gz
+Approx 85% complete for sample_1.fastq.gz
+Approx 75% complete for sample_2.fastq.gz
+Approx 90% complete for sample_1.fastq.gz
+Approx 80% complete for sample_2.fastq.gz
+Approx 95% complete for sample_1.fastq.gz
+Approx 85% complete for sample_2.fastq.gz
+Analysis complete for sample_1.fastq.gz
+Approx 90% complete for sample_2.fastq.gz
+Approx 95% complete for sample_2.fastq.gz
+Analysis complete for sample_2.fastq.gz
+[20:55:21]   QC-отчёты сохранены в results_bash/fastqc/
+[20:55:21] Шаг 2/8: индекс bwa уже существует — пропуск
+[20:55:21] Шаг 3/8: bwa mem — картирование ридов на референс
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 320000 sequences (80000000 bp)...
+[M::process] read 237844 sequences (59461000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (516, 151604, 5, 436)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (171, 270, 449)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1005)
+[M::mem_pestat] mean and std.dev: (310.96, 191.04)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1283)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (400, 537, 691)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1273)
+[M::mem_pestat] mean and std.dev: (551.82, 201.36)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1564)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (164, 276, 423)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 941)
+[M::mem_pestat] mean and std.dev: (292.12, 167.12)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1200)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 320000 reads in 33.798 CPU sec, 6.326 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (382, 112652, 7, 290)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (183, 312, 493)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1113)
+[M::mem_pestat] mean and std.dev: (339.75, 211.01)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1423)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (406, 549, 708)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 1312)
+[M::mem_pestat] mean and std.dev: (565.04, 211.65)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1614)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (189, 284, 436)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 930)
+[M::mem_pestat] mean and std.dev: (312.56, 175.29)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 1177)
+[M::mem_pestat] skip orientation FF
+[M::mem_pestat] skip orientation RR
+[M::mem_process_seqs] Processed 237844 reads in 24.784 CPU sec, 2.881 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 8 -R @RG\tID:sample\tSM:sample\tPL:ILLUMINA\tLB:sample ref/ecoli.fa reads/sample_1.fastq.gz reads/sample_2.fastq.gz
+[main] Real time: 10.494 sec; CPU: 59.830 sec
+[20:55:31] Шаг 4/8: samtools view — SAM -> BAM
+[20:55:32] Шаг 5/8: samtools flagstat — статистика картирования
+572526 + 0 in total (QC-passed reads + QC-failed reads)
+557844 + 0 primary
+0 + 0 secondary
+14682 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+569545 + 0 mapped (99.48% : N/A)
+554863 + 0 primary mapped (99.47% : N/A)
+557844 + 0 paired in sequencing
+278922 + 0 read1
+278922 + 0 read2
+544970 + 0 properly paired (97.69% : N/A)
+553432 + 0 with itself and mate mapped
+1431 + 0 singletons (0.26% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+[20:55:33] Шаг 6/8: разбор flagstat — извлечение % картированных ридов
+[20:55:33]   Картировано: 99.48%
+OK (99.48% mapped >= 90%)
+[20:55:33] Шаг 7/8: samtools sort — координатная сортировка BAM
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+[20:55:34] Шаг 8/8: freebayes — коллинг генетических вариантов
+[20:56:10] Finished. Найдено вариантов: 40688. VCF: results_bash/sample.vcf
+Finished
