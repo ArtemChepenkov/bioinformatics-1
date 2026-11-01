@@ -1,0 +1,670 @@
+[
+  {
+    "original_id": "rs1135638",
+    "variant_id": "21-25592836-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs10576",
+    "variant_id": "21-25592860-T-C",
+    "records": []
+  },
+  {
+    "original_id": "rs3989369",
+    "variant_id": "21-25606638-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs2254562",
+    "variant_id": "21-32687042-T-C",
+    "records": [
+      {
+        "variation_id": "586758",
+        "vcv_accession": "VCV000586758.18",
+        "name": "NM_203446.3(SYNJ1):c.884A>G (p.Lys295Arg)",
+        "last_updated": "2026-09-27",
+        "classification": "Benign",
+        "review_status": "criteria provided, multiple submitters, no conflicts",
+        "last_evaluated": "2026-02-04",
+        "conditions": [
+          "not provided",
+          "Developmental and epileptic encephalopathy, 53",
+          "Early-onset Parkinson disease 20",
+          "not specified"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV000844350",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2017-04-20"
+          },
+          {
+            "accession": "SCV001807732",
+            "contributes_to_aggregate": "false",
+            "classification": "Benign",
+            "review_status": "no assertion criteria provided",
+            "last_evaluated": null
+          },
+          {
+            "accession": "SCV001849131",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2018-07-05"
+          },
+          {
+            "accession": "SCV001970395",
+            "contributes_to_aggregate": "false",
+            "classification": "Benign",
+            "review_status": "no assertion criteria provided",
+            "last_evaluated": null
+          },
+          {
+            "accession": "SCV001731643",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2026-02-04"
+          },
+          {
+            "accession": "SCV005307702",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": null
+          },
+          {
+            "accession": "SCV007315271",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2022-03-24"
+          },
+          {
+            "accession": "SCV007876268",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2024-11-28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs17878711",
+    "variant_id": "21-33427015-A-G",
+    "records": [
+      {
+        "variation_id": "445594",
+        "vcv_accession": "VCV000445594.14",
+        "name": "NM_005534.4(IFNGR2):c.544A>G (p.Lys182Glu)",
+        "last_updated": "2026-03-08",
+        "classification": "Benign/Likely benign",
+        "review_status": "criteria provided, multiple submitters, no conflicts",
+        "last_evaluated": "2026-02-01",
+        "conditions": [
+          "not provided",
+          "Immunodeficiency 28"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV000610139",
+            "contributes_to_aggregate": "true",
+            "classification": "Likely benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2017-03-09"
+          },
+          {
+            "accession": "SCV005206218",
+            "contributes_to_aggregate": "true",
+            "classification": "Likely benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": null
+          },
+          {
+            "accession": "SCV000655053",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2026-02-01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs34373350",
+    "variant_id": "21-38814278-G-A",
+    "records": [
+      {
+        "variation_id": "786688",
+        "vcv_accession": "VCV000786688.5",
+        "name": "NM_005239.6(ETS2):c.190G>A (p.Ala64Thr)",
+        "last_updated": "2025-05-17",
+        "classification": "Benign",
+        "review_status": "criteria provided, multiple submitters, no conflicts",
+        "last_evaluated": "2019-12-31",
+        "conditions": [
+          "not provided"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV001116258",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2019-12-31"
+          },
+          {
+            "accession": "SCV005310615",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs115908228",
+    "variant_id": "21-38818481-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs114573236",
+    "variant_id": "21-43982389-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs115877869",
+    "variant_id": "22-19378003-G-C",
+    "records": []
+  },
+  {
+    "original_id": "rs116458396",
+    "variant_id": "22-19396916-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs114131171",
+    "variant_id": "22-19979765-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs114932611",
+    "variant_id": "22-19979849-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs1058399",
+    "variant_id": "22-19980020-G-A",
+    "records": [
+      {
+        "variation_id": "1290187",
+        "vcv_accession": "VCV001290187.3",
+        "name": "NM_001670.3(ARVCF):c.1119C>T (p.Pro373=)",
+        "last_updated": "2025-05-17",
+        "classification": "Benign",
+        "review_status": "criteria provided, multiple submitters, no conflicts",
+        "last_evaluated": "2021-05-05",
+        "conditions": [
+          "not provided"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV001939101",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2021-05-05"
+          },
+          {
+            "accession": "SCV005275389",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs2073748",
+    "variant_id": "22-19981448-G-A",
+    "records": [
+      {
+        "variation_id": "1288334",
+        "vcv_accession": "VCV001288334.2",
+        "name": "NM_001670.3(ARVCF):c.659C>T (p.Pro220Leu)",
+        "last_updated": "2025-05-17",
+        "classification": "Benign",
+        "review_status": "criteria provided, multiple submitters, no conflicts",
+        "last_evaluated": "2021-05-04",
+        "conditions": [
+          "not provided"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV001936313",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2021-05-04"
+          },
+          {
+            "accession": "SCV005275396",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs61739341",
+    "variant_id": "22-21643930-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs73166641",
+    "variant_id": "22-21643991-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs114712273",
+    "variant_id": "22-21962782-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs9610728",
+    "variant_id": "22-21964166-C-T",
+    "records": [
+      {
+        "variation_id": "3057045",
+        "vcv_accession": "VCV003057045.2",
+        "name": "NM_001282112.2(TOP3B):c.1093G>A (p.Asp365Asn)",
+        "last_updated": "2025-05-19",
+        "classification": "Benign",
+        "review_status": "no assertion criteria provided",
+        "last_evaluated": "2019-10-22",
+        "conditions": [
+          "TOP3B-related disorder"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV004792270",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "no assertion criteria provided",
+            "last_evaluated": "2019-10-22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs9610729",
+    "variant_id": "22-21964299-G-A",
+    "records": [
+      {
+        "variation_id": "3055564",
+        "vcv_accession": "VCV003055564.2",
+        "name": "NM_001282112.2(TOP3B):c.960C>T (p.His320=)",
+        "last_updated": "2025-05-19",
+        "classification": "Benign",
+        "review_status": "no assertion criteria provided",
+        "last_evaluated": "2019-10-22",
+        "conditions": [
+          "TOP3B-related disorder"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV004788557",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "no assertion criteria provided",
+            "last_evaluated": "2019-10-22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs115006916",
+    "variant_id": "22-23160895-A-T",
+    "records": []
+  },
+  {
+    "original_id": "rs5759611",
+    "variant_id": "22-23160934-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs114116736",
+    "variant_id": "22-24186269-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs17885497",
+    "variant_id": "22-28742305-T-C",
+    "records": []
+  },
+  {
+    "original_id": "rs17884212",
+    "variant_id": "22-28745929-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs5749104",
+    "variant_id": "22-30461461-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs115111929",
+    "variant_id": "22-30462162-A-C",
+    "records": []
+  },
+  {
+    "original_id": "rs4820853",
+    "variant_id": "22-30468623-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs115083767",
+    "variant_id": "22-30470253-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs115862749",
+    "variant_id": "22-30555417-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs112070427",
+    "variant_id": "22-30555895-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs116808844",
+    "variant_id": "22-30556036-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs11913728",
+    "variant_id": "22-31091696-C-T",
+    "records": []
+  },
+  {
+    "original_id": "rs116593437",
+    "variant_id": "22-31091747-G-A",
+    "records": [
+      {
+        "variation_id": "721065",
+        "vcv_accession": "VCV000721065.4",
+        "name": "NM_134269.3(SMTN):c.1532G>A (p.Arg511His)",
+        "last_updated": "2025-05-17",
+        "classification": "Benign",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2019-12-31",
+        "conditions": [
+          "not provided"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV001038484",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2019-12-31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs116641021",
+    "variant_id": "22-31096797-C-T",
+    "records": []
+  },
+  {
+    "original_id": "rs79923828",
+    "variant_id": "22-31278313-T-C",
+    "records": []
+  },
+  {
+    "original_id": "rs34292743",
+    "variant_id": "22-33304411-G-A",
+    "records": [
+      {
+        "variation_id": "95166",
+        "vcv_accession": "VCV000095166.28",
+        "name": "NM_133642.5(LARGE1):c.1548C>T (p.Tyr516=)",
+        "last_updated": "2026-04-13",
+        "classification": "Benign/Likely benign",
+        "review_status": "criteria provided, multiple submitters, no conflicts",
+        "last_evaluated": "2026-02-01",
+        "conditions": [
+          "not specified",
+          "Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6",
+          "not provided",
+          "Muscular dystrophy-dystroglycanopathy type B6"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV000310631",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": null
+          },
+          {
+            "accession": "SCV001144421",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2018-12-26"
+          },
+          {
+            "accession": "SCV007327615",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2018-03-12"
+          },
+          {
+            "accession": "SCV000193504",
+            "contributes_to_aggregate": "false",
+            "classification": "Likely benign",
+            "review_status": "no assertion criteria provided",
+            "last_evaluated": null
+          },
+          {
+            "accession": "SCV000610666",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2017-05-04"
+          },
+          {
+            "accession": "SCV000196853",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2014-07-29"
+          },
+          {
+            "accession": "SCV005210385",
+            "contributes_to_aggregate": "true",
+            "classification": "Likely benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": null
+          },
+          {
+            "accession": "SCV000113080",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2014-10-17"
+          },
+          {
+            "accession": "SCV000638976",
+            "contributes_to_aggregate": "true",
+            "classification": "Benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2026-02-01"
+          },
+          {
+            "accession": "SCV000438154",
+            "contributes_to_aggregate": "true",
+            "classification": "Likely benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2017-04-27"
+          },
+          {
+            "accession": "SCV000438155",
+            "contributes_to_aggregate": "true",
+            "classification": "Likely benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2017-04-27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs115686643",
+    "variant_id": "22-33316147-G-A",
+    "records": [
+      {
+        "variation_id": "902052",
+        "vcv_accession": "VCV000902052.11",
+        "name": "NM_133642.5(LARGE1):c.1389C>T (p.Tyr463=)",
+        "last_updated": "2026-04-13",
+        "classification": "Conflicting classifications of pathogenicity",
+        "review_status": "criteria provided, conflicting classifications",
+        "last_evaluated": "2025-02-20",
+        "conditions": [
+          "Muscular dystrophy-dystroglycanopathy type B6",
+          "Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV001309189",
+            "contributes_to_aggregate": "true",
+            "classification": "Uncertain significance",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2018-01-15"
+          },
+          {
+            "accession": "SCV001309190",
+            "contributes_to_aggregate": "true",
+            "classification": "Uncertain significance",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2018-01-15"
+          },
+          {
+            "accession": "SCV002433715",
+            "contributes_to_aggregate": "true",
+            "classification": "Likely benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2025-02-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs6001200",
+    "variant_id": "22-38699844-G-C",
+    "records": []
+  },
+  {
+    "original_id": "rs114180421",
+    "variant_id": "22-38699942-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs114704208",
+    "variant_id": "22-39044171-A-T",
+    "records": []
+  },
+  {
+    "original_id": "rs114689408",
+    "variant_id": "22-39374483-C-T",
+    "records": []
+  },
+  {
+    "original_id": "rs112945971",
+    "variant_id": "22-39744158-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs111738363",
+    "variant_id": "22-39765567-C-G",
+    "records": [
+      {
+        "variation_id": "4249262",
+        "vcv_accession": "VCV004249262.1",
+        "name": "NM_152512.4(ENTHD1):c.875G>C (p.Arg292Thr)",
+        "last_updated": "2025-10-05",
+        "classification": "Likely benign",
+        "review_status": "criteria provided, single submitter",
+        "last_evaluated": "2025-08-13",
+        "conditions": [
+          "not specified"
+        ],
+        "assertions": [
+          {
+            "accession": "SCV006522423",
+            "contributes_to_aggregate": "true",
+            "classification": "Likely benign",
+            "review_status": "criteria provided, single submitter",
+            "last_evaluated": "2025-08-13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_id": "rs115492335",
+    "variant_id": "22-39821109-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs114714334",
+    "variant_id": "22-39861847-C-T",
+    "records": []
+  },
+  {
+    "original_id": "rs75296456",
+    "variant_id": "22-39862000-A-G",
+    "records": []
+  },
+  {
+    "original_id": "rs115365592",
+    "variant_id": "22-40019319-C-T",
+    "records": []
+  },
+  {
+    "original_id": "rs115837035",
+    "variant_id": "22-40021368-G-A",
+    "records": []
+  },
+  {
+    "original_id": "rs5995793",
+    "variant_id": "22-40021776-C-T",
+    "records": []
+  },
+  {
+    "original_id": "rs8135982",
+    "variant_id": "22-44916465-C-T",
+    "records": []
+  }
+]

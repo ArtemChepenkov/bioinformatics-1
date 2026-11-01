@@ -1,0 +1,31 @@
+{
+  "assembly": "GRCh38",
+  "species": "homo_sapiens",
+  "input_sha256": "8b371f51a44913d320209fbb02e5ceafd86155b0f55055e619c75b5cdad18f61",
+  "ensembl_release": [
+    116
+  ],
+  "vep_options": {
+    "canonical": 1,
+    "mane": 1,
+    "hgvs": 1,
+    "protein": 1,
+    "transcript_version": 1,
+    "variant_class": 1,
+    "transcript_filters": "none; all returned transcripts retained"
+  },
+  "selection_rule": "worst_all_transcripts>MANE_Select>canonical>protein_coding>transcript_id",
+  "selection_explanation": "Use VEP most_severe_consequence across ALL transcripts, then among transcripts carrying it choose MANE Select, canonical, protein_coding, lexical transcript_id. This is not VEP --pick.",
+  "gnomad_dataset": "gnomad_r4",
+  "gnomad_af": "ALT global AC/AN, separate exomes and genomes; no summing cohorts",
+  "clinvar": "Union of rsID and chrpos38 coordinate searches; exact GRCh38 CHROM/POS/REF/ALT match to ClassifiedRecord/SimpleAllele; germline aggregate classification, review status and contributing assertions retained",
+  "missing_value": "NA = unavailable; not_found = successful search with no exact allele match, not proof of benignity",
+  "quality": "Input QUAL/FILTER/INFO are missing; no genotype/sample FORMAT present",
+  "sources": {
+    "vep_api": "https://rest.ensembl.org/documentation/info/vep_region_get",
+    "vep_consequences": "https://www.ensembl.org/info/genome/variation/prediction/predicted_data.html",
+    "gnomad_api": "https://github.com/broadinstitute/gnomad-browser/blob/main/graphql-api/README.md",
+    "clinvar_search": "https://www.ncbi.nlm.nih.gov/clinvar/docs/help/",
+    "clinvar_api": "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/"
+  }
+}
